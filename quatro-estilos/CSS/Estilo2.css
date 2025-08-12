@@ -1,109 +1,111 @@
-body{ 
+body{
     font-family: Arial;
     background-color: #d14836;
-    line-height: 20px;
-
-}
+ }
 
 #top{
     color: #ffffff;
     padding: 15px;
     font-size: 30px;
-    line-height: 26px;
 }
 
-ul{
+ul {
     float: right;
     cursor: pointer;
-    border: #d14836 solid 1px;
+    ;
 }
 
 #top h1{
-
+    line-height: 50px;
+    margin: 0px;
 }
-
-#menubar{
-
-}
-
+#menubar{ }
 #main{
-
+    background-color: white;
+    font: 80% Verdana;
+    padding: 10px;
 }
 
 #main h1, #main h2, #sidebar{
-    color: #d14836 ;
-    font: verdana;
-}
-
-h1,h2,h3{
-    color: #ffffff;
-    font:verdana;
+    color: #d14836;
  }
-
-#main{
-    padding: 10px;
-    background-color: #ffffff;
-    font: 80% verdana;
-}
-
-
 
 #sidebar{
-    background-color: #ffffff;
+    background-color: #f6dad7;
+    padding: 10px;
+ }
+#bottom{
+    padding: 10px;
  }
 
+#bottom p{
+    color: #ffffff;
+    font-size: 70%;
+    line-height: 20px;
+    text-align: center;
+ }
+ 
+li{
+    background-color: #d14836;
+    border: #d14836 solid 1px;
+    width: 155px;
+    border-radius: 40px;
+    color: white;    
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+li:hover{
+    background-color: #ffffff;
+    color: #d14836;
+ }
+li:nth-child(2){
+    background-color: #ffffff;
+    color: #d14836;
+    font-weight: bold;
+ }
+
+a{
+    color: #d14836;
+    text-decoration: none;
+ }
+
+a:hover{
+    text-decoration: underline;
+ }
+
+
+
+
+
+
  
 
  
 
-#top h1{ }
-#menubar{ }
 
-
-
-#bottom{ }
-#bottom p{ }
-li{ }
-li:hover{ }
-li:nth-child(2){ }
-a{ }
-a:hover{ }
 
 /*
-background-color: #d14836;
-background-color: #d14836;
 background-color: #F6DAD7;
 background-color: white;
 background-color: white;
-background-color: white;
-
-border-radius: 40px;
 color: #d14836;
 color: #d14836;
 color: #d14836;
 color: #d14836;
 color: white;
-color: white;
-color: white;
-cursor: pointer;
-
-font: 80% Verdana;
 font: Verdana;
-font-family: Arial;
-font-size: 30px;
+
 font-size: 70%;
 font-weight: bold;
-line-height: 20px;
-line-height: 26px;
-line-height: 50px;
 list-style-type: none;
 margin: 0;
-margin: 0px;
 margin: 10px;
 padding: 0;
 padding: 10px;
 padding: 10px;
-padding: 15px;
 padding: 5px;
 text-align: center;
 text-align: center;
