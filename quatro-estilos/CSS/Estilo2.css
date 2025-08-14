@@ -19,7 +19,7 @@ ul {
     line-height: 50px;
     margin: 0px;
 }
-#menubar{ }
+
 #main{
     background-color: white;
     font: 80% Verdana;
@@ -75,41 +75,3 @@ a{
 a:hover{
     text-decoration: underline;
  }
-
-
-
-
-
-
- 
-
- 
-
-
-
-/*
-background-color: #F6DAD7;
-background-color: white;
-background-color: white;
-color: #d14836;
-color: #d14836;
-color: #d14836;
-color: #d14836;
-color: white;
-font: Verdana;
-
-font-size: 70%;
-font-weight: bold;
-list-style-type: none;
-margin: 0;
-margin: 10px;
-padding: 0;
-padding: 10px;
-padding: 10px;
-padding: 5px;
-text-align: center;
-text-align: center;
-text-decoration: none;
-text-decoration: underline;
-width: 155px;
-*/
